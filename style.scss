@@ -1,1 +1,11 @@
-@import "_variables.scss", "_character-intro.scss", "characters.scss", "_hhd-or-jxz.scss", "_old-xian.scss", "text-effect.scss", "_yes-or-yes.scss"
+@import "_variables.scss", "_character-intro.scss", "characters.scss", "_hhd-or-jxz.scss", "_old-xian.scss", "text-effect.scss", "_yes-or-yes.scss";
+
+.container{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
