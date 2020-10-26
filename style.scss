@@ -1,4 +1,10 @@
-@import "_variables.scss", "_character-intro.scss", "characters.scss", "_hhd-or-jxz.scss", "_old-xian.scss", "text-effect.scss", "_yes-or-yes.scss";
+@import "_variables.scss";
+@import "_character-intro.scss";
+@import "characters.scss";
+@import "_hhd-or-jxz.scss";
+@import "_old-xian.scss"; 
+@import "_text-effect.scss";
+@import "_yes-or-yes.scss";
 
 .container{
     margin: 2rem auto;
