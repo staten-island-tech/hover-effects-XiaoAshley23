@@ -1,17 +1,15 @@
+@import "_buttons.scss";
+@import "_old-xian.scss";
+@import "_hhdjzx.scss";
 @import "_variables.scss";
 @import "_umbrella.scss";
-@import "_moe.scss";
-@import "_hhd-or-jxz.scss";
-@import "_old-xian.scss"; 
 @import "_text-effect.scss";
-@import "_yes-or-yes.scss";
 
 .container{
-    margin: 2rem auto;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    font-size: 1.5rem;
+    justify-content: center;
     align-items: center;
-    text-align: center;
 }

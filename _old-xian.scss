@@ -1,1 +1,14 @@
 @import "_variables.scss";
+
+.old-xian{
+    clip-path: circle();
+    margin-bottom: 3rem;
+}
+.old-xian:hover{
+    transition: all 2s;
+    filter: hue-rotate(180deg); 
+    filter: invert(1);  
+}
+.old-xian::after{
+    transition: all 1s;
+}

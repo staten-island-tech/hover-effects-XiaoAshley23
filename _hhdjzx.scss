@@ -1,0 +1,27 @@
+@import "_variables.scss";
+
+.hhdjzx{
+    margin-top: 3rem;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.hhd{
+    filter: blur(2px);
+    margin-right: 5rem;
+    transition: 0.2s
+}
+.jzx{
+    filter: blur(2px);
+    transition: 0.2s;
+}
+.hhd:hover{
+    filter: none;
+    transform: scale(1.2);
+}
+.jzx:hover{
+    filter: none;
+    transform: scale(1.2);
+}

@@ -1,1 +1,195 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.buttons,
+.buttons:link,
+.buttons:visited {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  padding: 2rem;
+  background-image: url("./img/sky.png");
+  font-size: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.like-us {
+  text-decoration: none;
+}
+
+.like-us::after {
+  background-image: url("./img/sky.png");
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.buttons:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: solid #000 2px;
+}
+
+.buttons::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.buttons:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.old-xian {
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  margin-bottom: 3rem;
+}
+
+.old-xian:hover {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-filter: hue-rotate(180deg);
+          filter: hue-rotate(180deg);
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.old-xian::after {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.hhdjzx {
+  margin-top: 3rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hhd {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  margin-right: 5rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.jzx {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.hhd:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.jzx:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.umbrella {
+  height: 30rem;
+  position: relative;
+}
+
+.umbrella-picture {
+  height: 40rem;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+  border-radius: 25%;
+}
+
+.umbrella-text {
+  font-size: 8rem;
+  opacity: .10%;
+  color: #f0fc85;
+  text-shadow: 3px 3px #000;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.umbrella:hover .umbrella-picture {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.umbrella:hover .umbrella-text {
+  opacity: 70%;
+  -webkit-transform: translateY(-300%);
+          transform: translateY(-300%);
+}
+
+.text-effect {
+  font-size: 5rem;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  color: #fcea47;
+  text-shadow: 2px 2px #000;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-bottom: 2rem;
+}
+
+.text-effect:hover {
+  font-size: 8rem;
+  translate: 5px 5px;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

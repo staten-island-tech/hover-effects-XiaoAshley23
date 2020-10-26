@@ -1,0 +1,35 @@
+@import "_variables.scss";
+
+.buttons,
+.buttons:link,
+.buttons:visited{
+   margin-top: 3rem; 
+   text-transform: uppercase;
+   padding: 2rem;
+   background-image: url("./img/sky.png");
+   font-size: 1rem;
+   transition: 0.5s;
+   border-radius: 30rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.like-us{
+    text-decoration: none;
+}
+.like-us::after{
+    background-image: url("./img/sky.png");
+    transform: translateY(-50%);
+}
+.buttons:hover{
+    transform: scale(1.2);
+    border: solid color(black) 2px;   
+}
+.buttons::after{
+    transform: scale(1);
+}
+.buttons:active{
+    transform: scale(1);
+}
+

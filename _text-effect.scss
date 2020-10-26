@@ -1,1 +1,15 @@
 @import "_variables.scss";
+
+.text-effect{
+    font-size: 5rem;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: rgb(252, 234, 71);
+    text-shadow: 2px 2px color(black);
+    transition: .5s;
+    margin-bottom: 2rem;
+}
+.text-effect:hover{
+    font-size: 8rem;
+    translate: 5px 5px;
+}

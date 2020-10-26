@@ -1,1 +1,32 @@
 @import "_variables.scss";
+
+.umbrella {
+    height: 30rem;
+    position: relative;
+}
+
+.umbrella-picture {
+    height: 40rem;
+    transition: all 1.5s;
+    border-radius: 25%;
+}
+
+.umbrella-text{
+    font-size: 8rem;
+    opacity: .10%;
+    color: rgb(240, 252, 133);
+    text-shadow: 3px 3px color(black);
+    transition: all 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.umbrella:hover .umbrella-picture{
+    filter: blur(2px)
+}
+
+.umbrella:hover .umbrella-text {
+    opacity: 70%;
+    transform: translateY(-300%);
+}
