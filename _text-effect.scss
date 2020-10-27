@@ -3,13 +3,16 @@
 .text-effect{
     font-size: 5rem;
     letter-spacing: normal;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: rgb(252, 234, 71);
     text-shadow: 2px 2px color(black);
-    transition: .5s;
+    transition: 0.5s;
     margin-bottom: 2rem;
 }
 .text-effect:hover{
     font-size: 8rem;
     translate: 5px 5px;
+    transition: all 2s;
+    filter: hue-rotate(180deg); 
+    filter: invert(1);  
 }

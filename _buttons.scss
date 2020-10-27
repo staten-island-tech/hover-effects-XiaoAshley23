@@ -19,15 +19,14 @@
     text-decoration: none;
 }
 .like-us::after{
-    background-image: url("./img/sky.png");
-    transform: translateY(-50%);
+    transition: 1s; 
 }
 .buttons:hover{
     transform: scale(1.2);
     border: solid color(black) 2px;   
 }
 .buttons::after{
-    transform: scale(1);
+    transition: 1s;
 }
 .buttons:active{
     transform: scale(1);

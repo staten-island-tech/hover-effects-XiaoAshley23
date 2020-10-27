@@ -29,9 +29,8 @@
 }
 
 .like-us::after {
-  background-image: url("./img/sky.png");
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .buttons:hover {
@@ -41,8 +40,8 @@
 }
 
 .buttons::after {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .buttons:active {
@@ -57,12 +56,11 @@
 }
 
 .old-xian:hover {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  -webkit-filter: hue-rotate(180deg);
-          filter: hue-rotate(180deg);
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  translate: scaleY(20) scaleX(20);
 }
 
 .old-xian::after {
@@ -162,17 +160,23 @@
 .text-effect {
   font-size: 5rem;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fcea47;
   text-shadow: 2px 2px #000;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   margin-bottom: 2rem;
 }
 
 .text-effect:hover {
   font-size: 8rem;
   translate: 5px 5px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-filter: hue-rotate(180deg);
+          filter: hue-rotate(180deg);
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 .container {

@@ -5,9 +5,9 @@
     margin-bottom: 3rem;
 }
 .old-xian:hover{
-    transition: all 2s;
-    filter: hue-rotate(180deg); 
-    filter: invert(1);  
+    transform: rotate(360deg);
+    transition: 1s;
+    translate: scaleY(20) scaleX(20);
 }
 .old-xian::after{
     transition: all 1s;
