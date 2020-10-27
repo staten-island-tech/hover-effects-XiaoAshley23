@@ -7,7 +7,6 @@
 .old-xian:hover{
     transform: rotate(360deg);
     transition: 1s;
-    translate: scaleY(20) scaleX(20);
 }
 .old-xian::after{
     transition: all 1s;

@@ -60,7 +60,6 @@
           transform: rotate(360deg);
   -webkit-transition: 1s;
   transition: 1s;
-  translate: scaleY(20) scaleX(20);
 }
 
 .old-xian::after {
@@ -160,7 +159,7 @@
 .text-effect {
   font-size: 5rem;
   letter-spacing: normal;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #fcea47;
   text-shadow: 2px 2px #000;
   -webkit-transition: 0.5s;
